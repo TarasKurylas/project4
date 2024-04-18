@@ -166,6 +166,11 @@ ul {
   padding-bottom: 32px;
 }
 
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--blue);
+}
+
 .item-box {
   margin-right: 30px;
   background-color: rgba(255, 255, 255, 1);
@@ -178,25 +183,24 @@ ul {
   margin-right: 0;
 }
 
-.actions {
-  display: flex;
-  padding: 0;
-  margin: 0;
-  outline: 1px solid black;
-  list-style: none;
-}
-
 .social-links {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   fill: #afb1b8;
-  margin-top: 16px;
-  margin-bottom: 30px;
-  padding: 0;
+  margin-right: 10px;
   border-radius: 50px;
   width: 44px;
   height: 44px;
+}
+
+.social-links:last-child {
+  margin: 0;
+}
+
+.social-icon {
+  display: flex;
+  padding: 16px 32px 30px;
 }
 
 .icon-links {
@@ -223,19 +227,24 @@ ul {
   border-radius: 4px;
 }
 
+.works {
+padding-right: 30px;
+}
+
+.works:last-child {
+  padding: 0;
+}
+
 .icon-antenna::before {
   background-image: url(../images/antenna\ 1.svg);
-  margin-right: 30px;
 }
 
 .icon-clock::before {
   background-image: url(../images/clock\ 1.svg);
-  margin-right: 30px;
 }
 
 .icon-diagram::before {
   background-image: url(../images/diagram\ 1.svg);
-  margin-right: 30px;
 }
 
 .icon-astronaut::before {
@@ -473,10 +482,11 @@ ul {
   justify-content: center;
   fill: rgba(255, 255, 255, 1);
   background-color: rgba(255, 255, 255, 0.1);
-  padding: 0;
   border-radius: 50px;
   width: 44px;
   height: 44px;
+
+  margin-right: 10px;
 }
 
 .social-links-footer:hover {
@@ -532,9 +542,8 @@ ul {
   line-height: 42.19px;
   letter-spacing: 0.03em;
   text-align: center;
-
   margin-top: 94px;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 .client-box {
@@ -549,12 +558,13 @@ ul {
         margin-right: 30px;
 }
 
-.client-box:hover {
-    fill: #2196f3;
-}
 
 .client-box:last-child {
-    margin-right: 0;
+  margin: 0;
+}
+
+.client-box:hover {
+    fill: #2196f3;
 }
 
 .client-list {
