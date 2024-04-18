@@ -18,10 +18,13 @@ body {
   padding-right: 15px;
 }
 
+.product-wrapper {
+  padding: 94px 0;
+}
+
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 94px;
 }
 
 .flex-element {
@@ -200,7 +203,7 @@ ul {
 
 .social-icon {
   display: flex;
-  padding: 16px 32px 30px;
+  margin-top: 16px;
 }
 
 .icon-links {
@@ -228,11 +231,11 @@ ul {
 }
 
 .works {
-padding-right: 30px;
+margin-right: 30px;
 }
 
 .works:last-child {
-  padding: 0;
+  margin-right: 0;
 }
 
 .icon-antenna::before {
@@ -324,9 +327,6 @@ padding-right: 30px;
   border-radius: 4px;
 }
 
-.button-title {
-  margin-left: 8px;
-}
 
 .button-a:hover,
 .button-a:focus {
@@ -340,13 +340,13 @@ padding-right: 30px;
 .button-list {
   justify-content: center;
   display: flex;
-  margin-top: 94px;
+  gap: 8px;
   margin-bottom: 50px;
 }
 
 .feature-list {
   display: flex;
-  margin-top: 94px;
+  padding: 94px 0;
 }
 
 .section-title {
@@ -366,8 +366,7 @@ padding-right: 30px;
   font-size: 36px;
   line-height: 1.17;
 
-  padding-bottom: 50px;
-  margin-top: 94px;
+  margin-bottom: 50px;
 }
 
 .work-list {
@@ -377,6 +376,7 @@ padding-right: 30px;
 
 .work-list .item {
   margin-right: 30px;
+  padding-bottom: 94px;
 }
 
 .work-list .item:last-child {
@@ -391,7 +391,10 @@ padding-right: 30px;
 
   padding-top: 94px;
   padding-bottom: 50px;
-  margin-top: 94px;
+}
+
+.team-wrapper {
+  padding: 30px 32px
 }
 
 .text {
@@ -408,8 +411,6 @@ padding-right: 30px;
   font-size: 16px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-
-  padding-top: 30px;
 }
 
 .profession {
@@ -419,7 +420,7 @@ padding-right: 30px;
   line-height: 1.17;
   letter-spacing: 0.03em;
 
-  padding-top: 10px;
+  margin-top: 10px;
 }
 
 .command {
@@ -489,6 +490,10 @@ padding-right: 30px;
   margin-right: 10px;
 }
 
+.social-links-footer:last-child {
+margin: 0;
+}
+
 .social-links-footer:hover {
   color: rgba(255, 255, 255, 1);
   background-color: var(--blue);
@@ -535,6 +540,10 @@ padding-right: 30px;
   background-size: cover;
 }
 
+.clients-wrapper {
+  padding: 94px 0;
+}
+
 .clients {
   font-family: Roboto;
   font-size: 36px;
@@ -542,8 +551,7 @@ padding-right: 30px;
   line-height: 42.19px;
   letter-spacing: 0.03em;
   text-align: center;
-  margin-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .client-box {
@@ -565,11 +573,11 @@ padding-right: 30px;
 
 .client-box:hover {
     fill: #2196f3;
+    border-color: #2196f3;
 }
 
 .client-list {
     display: flex;
-    margin-bottom: 94px;
 }
 
 .client-logo {
